@@ -1,0 +1,14 @@
+# Ignora as pastas de dependências em qualquer subpasta
+**/node_modules/
+
+# Ignora os arquivos de configuração do banco (Segurança!)
+**/.env
+
+# Ignora pastas de build/saída
+**/dist/
+**/build/
+**/.next/
+
+# Lixo do sistema
+.DS_Store
+Thumbs.db
